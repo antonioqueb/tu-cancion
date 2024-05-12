@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: '#3413959'
+
+    output: 'standalone',
   }
   
   module.exports = nextConfig
