@@ -7,7 +7,7 @@ const CardMusic = ({
   imageUrl
 }) => (
   <div
-    className="w-full border m-2 border-gray-300 mx-auto pb-8 bg-white shadow-md rounded-lg overflow-hidden dark:bg-zinc-900 sm:max-w-xl md:max-w-2xl lg:max-w-4xl"
+    className="w-full border m-2 border-gray-300 mx-auto pb-8 bg-white shadow-md rounded-lg overflow-hidden "
   >
     <div className="relative h-40 w-full">
       <Image
