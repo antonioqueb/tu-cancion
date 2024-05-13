@@ -21,6 +21,16 @@ body {
   background: white;
   
 }
+input, select, textarea {
+  background-color: #fff; /* Fondo blanco */
+  color: #333; /* Texto oscuro para contraste */
+}
+
+input:focus, select:focus, textarea:focus {
+  background-color: #fff; /* Fondo blanco también en foco */
+  border-color: #f00; /* Por ejemplo, borde rojo en foco */
+}
+
 
 @layer utilities {
   .text-balance {
