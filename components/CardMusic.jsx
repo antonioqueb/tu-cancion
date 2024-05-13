@@ -36,10 +36,10 @@ const CardMusic = ({
           <circle cx="18" cy="16" r="3"></circle>
         </svg>
         <div className="mx-3">
-          <h3 className="text-lg font-medium text-gray-700 dark:text-gray-200">
+          <h3 className="text-lg font-medium text-gray-700 ">
             {songTitle}
           </h3>
-          <p className="text-gray-500 dark:text-gray-400">{artistName}</p>
+          <p className="text-gray-500 ">{artistName}</p>
         </div>
       </div>
       <div className="flex items-center">
@@ -62,7 +62,7 @@ const CardMusic = ({
     <div className="px-4 sm:px-6 py-4">
       <div className="flex items-center">
         <svg
-          className="h-5 w-5 text-gray-500 dark:text-gray-400"
+          className="h-5 w-5 text-gray-500 "
           fill="none"
           height="24"
           stroke="currentColor"
@@ -76,13 +76,13 @@ const CardMusic = ({
           <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
         </svg>
         <div className="w-full mx-3">
-          <div className="relative mt-1 h-1 bg-gray-200 rounded overflow-hidden dark:bg-gray-800">
+          <div className="relative mt-1 h-1 bg-gray-200 rounded overflow-hidden ">
             <div className="absolute left-0 top-0 h-full bg-pink-500" style={{ width: volumeControlWidth }}></div>
           </div>
         </div>
-        <p className="text-sm text-gray-500 dark:text-gray-400">{playTime}</p>
+        <p className="text-sm text-gray-500 ">{playTime}</p>
       </div>
-      <div className="flex justify-between text-sm text-gray-500 dark:text-gray-400 mt-3">
+      <div className="flex justify-between text-sm text-gray-500 mt-5 pt-5">
         <span>{timeElapsed}</span><span>{totalTime}</span>
       </div>
     </div>
