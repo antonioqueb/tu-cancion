@@ -16,7 +16,7 @@ const ContactMe = () => (
       </div>
       <div className="container px-4 sm:px-12">
         <div
-          className="block rounded-lg bg-white bg-opacity-80 px-4 py-12 shadow-lg shadow-gray-300/30 dark:bg-black dark:bg-opacity-70 dark:shadow-black/20 md:py-16 md:px-12 -mt-[100px] backdrop-blur-lg">
+          className="block rounded-lg bg-white bg-opacity-80 px-4 py-12 shadow-lg shadow-gray-300/30 md:py-16 md:px-12 -mt-[100px] backdrop-blur-lg">
           <div className="flex flex-wrap">
             <div className="mb-12 w-full py-12 lg:w-5/12 px-3">
               <h2 className="text-xl md:text-2xl font-bold mb-4">LLÁMANOS</h2>

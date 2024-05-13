@@ -7,7 +7,7 @@ const client = new MercadoPagoConfig({ accessToken: process.env.MP_ACCESS_TOKEN!
 
 export default function Home() {
   return (
-    <div className="dark:bg-gray-800 container mx-auto min-h-screen flex flex-col justify-between p-4">
+    <div className=" container mx-auto min-h-screen flex flex-col justify-between p-4">
       <main className="py-8">
         <DonateForm />
         <div className="container max-w-7xl flex flex-col-reverse  justify-between items-center mx-auto px-4 py-24 lg:flex-row">
