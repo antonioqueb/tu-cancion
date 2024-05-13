@@ -5,7 +5,7 @@ const Testimonials = () => (
     <section className="flex flex-col py-12 justify-center items-center w-full">
       <div className="mx-auto px-4 text-center sm:max-w-xl md:max-w-3xl">
         <h3 className="text-2xl sm:text-3xl font-bold mb-6">Testimonials</h3>
-        <p className="text-sm sm:text-base text-neutral-600 text-lg dark:text-neutral-300 mb-6 md:mb-12">
+        <p className="text-sm sm:text-base text-neutral-600 text-lg ">
           Lo que nuestros clientes dicen sobre nosotros. ¡Gracias por confiar en nosotros!
         </p>
       </div>
@@ -16,13 +16,13 @@ const Testimonials = () => (
           <div className="mb-6 flex justify-center">
             <img
               src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg"
-              className="w-24 md:w-32 rounded-full shadow-lg dark:shadow-black/30" />
+              className="w-24 md:w-32 rounded-full shadow-lg " />
           </div>
           <h5 className="text-lg md:text-xl font-semibold mb-4">Jennifer P.</h5>
           <h6 className="font-semibold text-red-600 dark:text-primary-400 mb-4">
             Hija Mayor
           </h6>
-          <p className="text-neutral-600 text-lg dark:text-neutral-300 mb-4">
+          <p className="text-neutral-600 text-lg ">
             Tucancion.com.mx es excepcional. Su enfoque en crear canciones personalizadas basadas en historias individuales es un regalo verdaderamente único. La posibilidad de dedicar estas canciones a personas especiales agrega un toque emocional incomparable. Es una manera encantadora y significativa de expresar amor, gratitud o celebrar momentos especiales. ¡Una experiencia musical que nunca olvidarás y que seguramente será apreciada por aquellos a quienes dedicas estas hermosas melodías!
           </p>
           <ul className="flex items-center justify-center space-x-1">
@@ -95,13 +95,13 @@ const Testimonials = () => (
       <div class="mb-6 flex justify-center">
         <img
           src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg"
-          class="w-32 rounded-full shadow-lg dark:shadow-black/30" />
+          class="w-32 rounded-full shadow-lg " />
       </div>
       <h5 class="mb-4 text-xl font-semibold">Sofia A.</h5>
       <h6 class="mb-4 font-semibold text-red-600 dark:text-primary-400">
         Hermana Menor
       </h6>
-      <p class="mb-4 text-neutral-600 text-lg dark:text-neutral-300">
+      <p class="mb-4 text-neutral-600 text-lg ">
         <span class="inline-block pe-2 [&>svg]:w-5"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
@@ -180,13 +180,13 @@ const Testimonials = () => (
       <div class="mb-6 flex justify-center">
         <img
           src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpg"
-          class="w-32 rounded-full shadow-lg dark:shadow-black/30" />
+          class="w-32 rounded-full shadow-lg " />
       </div>
       <h5 class="mb-4 text-xl font-semibold">Luis A.</h5>
       <h6 class="mb-4 font-semibold text-red-600 dark:text-primary-400">
         Hermano Gemelo
       </h6>
-      <p class="mb-4 text-neutral-600 text-lg dark:text-neutral-300">
+      <p class="mb-4 text-neutral-600 text-lg ">
         <span class="inline-block pe-2 [&>svg]:w-5"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
